@@ -1,0 +1,98 @@
+#-------------------------------------------------------------------
+# Visual Studio / Visual Studio Code
+#-------------------------------------------------------------------
+
+# User-specific files
+*.user
+*.suo
+*.sln.docstates
+
+# Visual Studio Code settings and files
+.vscode/
+
+#-------------------------------------------------------------------
+# Build and Log Folders
+#-------------------------------------------------------------------
+
+# Common build and deployment output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Rr]edeploy/
+
+# Packages folder
+**/packages/
+
+# Test results
+*.trx
+*.log
+
+#-------------------------------------------------------------------
+# .NET / .NET MAUI Specific Files
+#-------------------------------------------------------------------
+
+# NuGet files
+*.nupkg
+*.snupkg
+*.props.orig
+.nuget/
+
+# Global project file settings (for SDK-style projects)
+.vs/
+.vs.log
+
+# Temporary files
+*.tmp
+
+# Configuration secrets (Important for security!)
+# If you have a specific file for secrets, add it here.
+# For example: appsettings.json, appsettings.*.json, etc.
+# But for MAUI, these are usually handled differently.
+
+#-------------------------------------------------------------------
+# Platform Specific Build Artifacts
+#-------------------------------------------------------------------
+
+# Android
+**/*.apk
+**/*.aab
+**/obj/Android/
+
+# iOS/macOS
+**/*.ipa
+**/*.app
+**/*.xcarchive/
+**/*.DS_Store
+**/obj/iOS/
+**/obj/MacCatalyst/
+
+# Windows
+**/*.exe
+**/*.msix
+**/*.msixbundle
+**/obj/WinUI/
+
+#-------------------------------------------------------------------
+# Editor and System Files
+#-------------------------------------------------------------------
+
+# macOS system files
+.DS_Store
+
+# ReSharper / JetBrains files
+*.resharper
+*.userprefs
+_ReSharper*/
+
+# Rider IDE files
+.idea/
+
+# DotCover
+*.dcvr
+
+# DotMemory
+*.dmom
+
+# Local settings/temp files from various tools
+**/backup/

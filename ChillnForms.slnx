@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="ChillnForms.Api.Interface/ChillnForms.Api.Interface.csproj" />
+  <Project Path="ChillnForms.Api.Service/ChillnForms.Api.Service.csproj" />
+  <Project Path="ChillnForms.Core/ChillnForms.Core.csproj" />
+  <Project Path="ChillnForms.MappingExtensions/ChillnForms.MappingExtensions.csproj" />
+  <Project Path="ChillnForms.Maui/ChillnForms.Maui.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="ChillnForms.Models/ChillnForms.Models.csproj" />
+</Solution>
