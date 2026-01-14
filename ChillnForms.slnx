@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="ChillnForms.Api.Interface/ChillnForms.Api.Interface.csproj" />
   <Project Path="ChillnForms.Api.Service/ChillnForms.Api.Service.csproj" />
+  <Project Path="ChillnForms.Common/ChillnForms.Common.csproj" Id="fa0ab3be-796b-4902-bc8b-e03e93650331" />
   <Project Path="ChillnForms.Core/ChillnForms.Core.csproj" />
   <Project Path="ChillnForms.MappingExtensions/ChillnForms.MappingExtensions.csproj" />
   <Project Path="ChillnForms.Maui/ChillnForms.Maui.csproj">
