@@ -4,9 +4,12 @@ using System.Text;
 
 namespace ChillnForms.Common
 {
-    public interface ISyncable
+    public enum FieldTypes
     {
-        bool IsDeleted { get; set; }  
-        DateTime LastModified { get; set; }
+        Int,
+        Float,
+        Bool,
+        String,
+        Blob
     }
 }

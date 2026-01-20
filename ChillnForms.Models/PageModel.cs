@@ -3,14 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ChillnForms.Core.Entities
+namespace ChillnForms.Models
 {
-    public class Page : ISyncable
+    public class PageModel : ISyncable
     {
         public Guid Id { get; set; }
-        public string BackendName { get; set; } 
-        public string Name { get; set; } 
-        public virtual List<Field> Fields { get; set; }
+        public string BackendName { get; set; }
+        public string Name { get; set; }
         public DateTime DateCreated { get; set; }
         public Guid? CreatedBy { get; set; }
         public Guid? LastModifiedBy { get; set; }
@@ -18,7 +17,6 @@ namespace ChillnForms.Core.Entities
         public DateTime LastModified { get; set; }
 
         public Guid TemplateId { get; set; }
-        public virtual Template Template { get; set; }
-        
+        public List<FieldModel> Fields { get; set; }
     }
 }

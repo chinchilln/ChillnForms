@@ -4,12 +4,8 @@ using System.Text;
 
 namespace ChillnForms.Common
 {
-    enum FieldTypes
+    public interface IId
     {
-        Int,
-        Float,
-        Bool,
-        String,
-        Blob
+        Guid Id { get; set; }
     }
 }

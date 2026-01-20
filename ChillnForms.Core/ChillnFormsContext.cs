@@ -11,9 +11,8 @@ namespace ChillnForms.Core
         public ChillnFormsContext(DbContextOptions<ChillnFormsContext> options) : base(options)
         {
         }
-        // Define DbSets for your entities here
-        // public DbSet<Template> Templates { get; set; }
         public DbSet<Template> Templates { get; set; }
         public DbSet<Field> Fields { get; set; }
+        public DbSet<Page> Pages { get; set; }
     }
 }

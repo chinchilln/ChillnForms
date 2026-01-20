@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ChillnForms.Common\ChillnForms.Common.csproj" />
+    <ProjectReference Include="..\ChillnForms.Core\ChillnForms.Core.csproj" />
+    <ProjectReference Include="..\ChillnForms.Models\ChillnForms.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ChillnForms.Api.Interface\ChillnForms.Api.Interface.csproj" />
+    <ProjectReference Include="..\ChillnForms.Common\ChillnForms.Common.csproj" />
+    <ProjectReference Include="..\ChillnForms.Core\ChillnForms.Core.csproj" />
+    <ProjectReference Include="..\ChillnForms.MappingExtensions\ChillnForms.MappingExtensions.csproj" />
+    <ProjectReference Include="..\ChillnForms.Models\ChillnForms.Models.csproj" />
+  </ItemGroup>
+
 </Project>

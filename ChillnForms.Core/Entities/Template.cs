@@ -1,16 +1,22 @@
-﻿using System;
+﻿using ChillnForms.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ChillnForms.Core.Entities
 {
-    public class Template
+    public class Template : ISyncable
     {
-        Guid Id { get; set; }
+        public Guid Id { get; set; }
+        public string BackendName { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public List<Field> Fields { get; set; } = new List<Field>();
+        public bool IsDeleted { get; set; } = false;
+        public DateTime LastModified { get; set; }
+        public DateTime DateCreated { get; set; }
+        public Guid? CreatedBy { get; set; }
+        public Guid? LastModifiedBy { get; set; }
 
-        public Template() { }
+        public virtual List<Page> Pages { get; set; }
     }
 }
